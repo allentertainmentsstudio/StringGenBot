@@ -41,7 +41,7 @@ class Inline:
                 [self.ikb(text="Generate Session", callback_data="generate")],
                 [
                     self.ikb(text="Support", url=SUPPORT_CHAT),
-                    self.ikb(text="Source", url="https://github.com/allentertainmentsstudio/StringGenBot"),
+                    self.ikb(text="Source", url="https://t.me/log_channel_a/228"),
                 ],
             ]
         )
