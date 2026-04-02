@@ -18,7 +18,7 @@ class Pyro(Client):
     def __init__(self):
         super().__init__(
             name="StringSession",
-            api_id=6,
+            api_id="34446649",
             api_hash="8dc570c08d8e35e88fb9bfc73c65d7fa",
             lang_code="en",
             bot_token=config.BOT_TOKEN,
@@ -33,7 +33,7 @@ class Pyro(Client):
         self.name = self.me.first_name
         self.username = self.me.username
         self.mention = self.me.mention
-        logger.info(f"@{self.username} started.")
+        logger.info(f"@anujedits76 started.")
 
     async def _stop(self):
         await super().stop()
